@@ -7,15 +7,49 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5825B77C27336DB600764366 /* Zip in Frameworks */ = {isa = PBXBuildFile; productRef = 5825B77B27336DB600764366 /* Zip */; };
+		5825B77E273442CC00764366 /* SearchDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5825B77D273442CC00764366 /* SearchDetailViewController.swift */; };
+		585252922730B97E00A50D96 /* Calender.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585252912730B97E00A50D96 /* Calender.storyboard */; };
+		585252942730B98B00A50D96 /* Search.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585252932730B98B00A50D96 /* Search.storyboard */; };
+		585252962730B99400A50D96 /* Setting.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 585252952730B99400A50D96 /* Setting.storyboard */; };
+		5852529B2730C90E00A50D96 /* Realm in Frameworks */ = {isa = PBXBuildFile; productRef = 5852529A2730C90E00A50D96 /* Realm */; };
+		5852529D2730C90E00A50D96 /* RealmSwift in Frameworks */ = {isa = PBXBuildFile; productRef = 5852529C2730C90E00A50D96 /* RealmSwift */; };
+		585252A02730C96F00A50D96 /* RealmModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5852529F2730C96F00A50D96 /* RealmModel.swift */; };
+		585252A52730DA9E00A50D96 /* SearchTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 585252A32730DA9E00A50D96 /* SearchTableViewCell.swift */; };
+		585252A62730DA9E00A50D96 /* SearchTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 585252A42730DA9E00A50D96 /* SearchTableViewCell.xib */; };
 		5886471D272F6F6100534CD1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886471C272F6F6100534CD1 /* AppDelegate.swift */; };
 		5886471F272F6F6100534CD1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886471E272F6F6100534CD1 /* SceneDelegate.swift */; };
 		58864721272F6F6100534CD1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58864720272F6F6100534CD1 /* ViewController.swift */; };
 		58864724272F6F6100534CD1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58864722272F6F6100534CD1 /* Main.storyboard */; };
 		58864726272F6F6200534CD1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 58864725272F6F6200534CD1 /* Assets.xcassets */; };
 		58864729272F6F6200534CD1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 58864727272F6F6200534CD1 /* LaunchScreen.storyboard */; };
+		58864738272F706D00534CD1 /* font.otf in Resources */ = {isa = PBXBuildFile; fileRef = 58864737272F706D00534CD1 /* font.otf */; };
+		5886473B272F738100534CD1 /* UIFont+Extention.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5886473A272F738100534CD1 /* UIFont+Extention.swift */; };
+		5899AB49272F801700A521D3 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5899AB4B272F801700A521D3 /* Localizable.strings */; };
+		5899AB51272F853A00A521D3 /* Setting.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5899AB53272F853A00A521D3 /* Setting.strings */; };
+		5899AB57272F879F00A521D3 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 5899AB59272F879F00A521D3 /* InfoPlist.strings */; };
+		5899AB5F272F894C00A521D3 /* String+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB5E272F894C00A521D3 /* String+Extension.swift */; };
+		5899AB61272F89FE00A521D3 /* LocalizableStrings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB60272F89FE00A521D3 /* LocalizableStrings.swift */; };
+		5899AB68272FC48200A521D3 /* ContentViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB67272FC48200A521D3 /* ContentViewController.swift */; };
+		5899AB6A272FC49600A521D3 /* CalenderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB69272FC49600A521D3 /* CalenderViewController.swift */; };
+		5899AB6C272FC49E00A521D3 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB6B272FC49E00A521D3 /* SearchViewController.swift */; };
+		5899AB6E272FC4A300A521D3 /* SettingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5899AB6D272FC4A300A521D3 /* SettingViewController.swift */; };
+		58B0C5A12738AACB00776FFA /* HomeTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0C59F2738AACB00776FFA /* HomeTableViewCell.swift */; };
+		58B0C5A42738B18300776FFA /* HomeCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58B0C5A32738B18300776FFA /* HomeCollectionViewCell.swift */; };
+		58D243CB2734ADC200E65E1A /* FSCalendar in Frameworks */ = {isa = PBXBuildFile; productRef = 58D243CA2734ADC200E65E1A /* FSCalendar */; };
+		58D243CD2734B57400E65E1A /* DatePickerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D243CC2734B57400E65E1A /* DatePickerViewController.swift */; };
+		58D243D02734CE7500E65E1A /* RealmQuery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D243CF2734CE7500E65E1A /* RealmQuery.swift */; };
+		58D243D22734D01B00E65E1A /* Date+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 58D243D12734D01B00E65E1A /* Date+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		5825B77D273442CC00764366 /* SearchDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchDetailViewController.swift; sourceTree = "<group>"; };
+		585252912730B97E00A50D96 /* Calender.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Calender.storyboard; sourceTree = "<group>"; };
+		585252932730B98B00A50D96 /* Search.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Search.storyboard; sourceTree = "<group>"; };
+		585252952730B99400A50D96 /* Setting.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = Setting.storyboard; sourceTree = "<group>"; };
+		5852529F2730C96F00A50D96 /* RealmModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmModel.swift; sourceTree = "<group>"; };
+		585252A32730DA9E00A50D96 /* SearchTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchTableViewCell.swift; sourceTree = "<group>"; };
+		585252A42730DA9E00A50D96 /* SearchTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SearchTableViewCell.xib; sourceTree = "<group>"; };
 		58864719272F6F6100534CD1 /* SeSAC_Week06.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SeSAC_Week06.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5886471C272F6F6100534CD1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5886471E272F6F6100534CD1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -24,6 +58,30 @@
 		58864725272F6F6200534CD1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		58864728272F6F6200534CD1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5886472A272F6F6200534CD1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58864737272F706D00534CD1 /* font.otf */ = {isa = PBXFileReference; lastKnownFileType = file; path = font.otf; sourceTree = "<group>"; };
+		5886473A272F738100534CD1 /* UIFont+Extention.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIFont+Extention.swift"; sourceTree = "<group>"; };
+		5886473C272F7C9B00534CD1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Main.strings; sourceTree = "<group>"; };
+		5886473D272F7C9B00534CD1 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5899AB44272F7CF400A521D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/Main.strings; sourceTree = "<group>"; };
+		5899AB45272F7CF400A521D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		5899AB4C272F801F00A521D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5899AB4E272F804300A521D3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Localizable.strings; sourceTree = "<group>"; };
+		5899AB52272F853A00A521D3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/Setting.strings; sourceTree = "<group>"; };
+		5899AB54272F853C00A521D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Setting.strings; sourceTree = "<group>"; };
+		5899AB58272F879F00A521D3 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5899AB5A272F87A200A521D3 /* ko */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ko; path = ko.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5899AB5B272F87A300A521D3 /* ja */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ja; path = ja.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		5899AB5E272F894C00A521D3 /* String+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "String+Extension.swift"; sourceTree = "<group>"; };
+		5899AB60272F89FE00A521D3 /* LocalizableStrings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocalizableStrings.swift; sourceTree = "<group>"; };
+		5899AB67272FC48200A521D3 /* ContentViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentViewController.swift; sourceTree = "<group>"; };
+		5899AB69272FC49600A521D3 /* CalenderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalenderViewController.swift; sourceTree = "<group>"; };
+		5899AB6B272FC49E00A521D3 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
+		5899AB6D272FC4A300A521D3 /* SettingViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingViewController.swift; sourceTree = "<group>"; };
+		58B0C59F2738AACB00776FFA /* HomeTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeTableViewCell.swift; sourceTree = "<group>"; };
+		58B0C5A32738B18300776FFA /* HomeCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeCollectionViewCell.swift; sourceTree = "<group>"; };
+		58D243CC2734B57400E65E1A /* DatePickerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePickerViewController.swift; sourceTree = "<group>"; };
+		58D243CF2734CE7500E65E1A /* RealmQuery.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RealmQuery.swift; sourceTree = "<group>"; };
+		58D243D12734D01B00E65E1A /* Date+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Date+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,15 +89,51 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5825B77C27336DB600764366 /* Zip in Frameworks */,
+				58D243CB2734ADC200E65E1A /* FSCalendar in Frameworks */,
+				5852529D2730C90E00A50D96 /* RealmSwift in Frameworks */,
+				5852529B2730C90E00A50D96 /* Realm in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		5852529E2730C95800A50D96 /* Realm */ = {
+			isa = PBXGroup;
+			children = (
+				5852529F2730C96F00A50D96 /* RealmModel.swift */,
+				58D243CF2734CE7500E65E1A /* RealmQuery.swift */,
+			);
+			path = Realm;
+			sourceTree = "<group>";
+		};
+		585252A12730DA7900A50D96 /* StoryBoard */ = {
+			isa = PBXGroup;
+			children = (
+				58864722272F6F6100534CD1 /* Main.storyboard */,
+				585252912730B97E00A50D96 /* Calender.storyboard */,
+				585252932730B98B00A50D96 /* Search.storyboard */,
+				585252952730B99400A50D96 /* Setting.storyboard */,
+			);
+			path = StoryBoard;
+			sourceTree = "<group>";
+		};
+		585252A22730DA8700A50D96 /* Cell */ = {
+			isa = PBXGroup;
+			children = (
+				58B0C5A32738B18300776FFA /* HomeCollectionViewCell.swift */,
+				58B0C59F2738AACB00776FFA /* HomeTableViewCell.swift */,
+				585252A32730DA9E00A50D96 /* SearchTableViewCell.swift */,
+				585252A42730DA9E00A50D96 /* SearchTableViewCell.xib */,
+			);
+			path = Cell;
+			sourceTree = "<group>";
+		};
 		58864710272F6F6100534CD1 = {
 			isa = PBXGroup;
 			children = (
+				5852529E2730C95800A50D96 /* Realm */,
 				5886471B272F6F6100534CD1 /* SeSAC_Week06 */,
 				5886471A272F6F6100534CD1 /* Products */,
 			);
@@ -56,15 +150,86 @@
 		5886471B272F6F6100534CD1 /* SeSAC_Week06 */ = {
 			isa = PBXGroup;
 			children = (
+				5899AB46272F7FC000A521D3 /* Localization */,
+				58864739272F735E00534CD1 /* Extention */,
+				58864730272F6FC500534CD1 /* Font */,
 				5886471C272F6F6100534CD1 /* AppDelegate.swift */,
 				5886471E272F6F6100534CD1 /* SceneDelegate.swift */,
-				58864720272F6F6100534CD1 /* ViewController.swift */,
-				58864722272F6F6100534CD1 /* Main.storyboard */,
+				5899AB64272FBD0900A521D3 /* View */,
+				5899AB63272FBCFB00A521D3 /* Model */,
+				5899AB62272FBCDF00A521D3 /* Controller */,
 				58864725272F6F6200534CD1 /* Assets.xcassets */,
 				58864727272F6F6200534CD1 /* LaunchScreen.storyboard */,
 				5886472A272F6F6200534CD1 /* Info.plist */,
 			);
 			path = SeSAC_Week06;
+			sourceTree = "<group>";
+		};
+		58864730272F6FC500534CD1 /* Font */ = {
+			isa = PBXGroup;
+			children = (
+				58864737272F706D00534CD1 /* font.otf */,
+			);
+			path = Font;
+			sourceTree = "<group>";
+		};
+		58864739272F735E00534CD1 /* Extention */ = {
+			isa = PBXGroup;
+			children = (
+				5886473A272F738100534CD1 /* UIFont+Extention.swift */,
+				5899AB5E272F894C00A521D3 /* String+Extension.swift */,
+				58D243D12734D01B00E65E1A /* Date+Extension.swift */,
+			);
+			path = Extention;
+			sourceTree = "<group>";
+		};
+		5899AB46272F7FC000A521D3 /* Localization */ = {
+			isa = PBXGroup;
+			children = (
+				5899AB4B272F801700A521D3 /* Localizable.strings */,
+				5899AB53272F853A00A521D3 /* Setting.strings */,
+				5899AB59272F879F00A521D3 /* InfoPlist.strings */,
+				5899AB60272F89FE00A521D3 /* LocalizableStrings.swift */,
+			);
+			path = Localization;
+			sourceTree = "<group>";
+		};
+		5899AB62272FBCDF00A521D3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				58D243CE2734B85200E65E1A /* MainViewController */,
+				5899AB69272FC49600A521D3 /* CalenderViewController.swift */,
+				5899AB6B272FC49E00A521D3 /* SearchViewController.swift */,
+				5825B77D273442CC00764366 /* SearchDetailViewController.swift */,
+				5899AB6D272FC4A300A521D3 /* SettingViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		5899AB63272FBCFB00A521D3 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		5899AB64272FBD0900A521D3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				585252A22730DA8700A50D96 /* Cell */,
+				585252A12730DA7900A50D96 /* StoryBoard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		58D243CE2734B85200E65E1A /* MainViewController */ = {
+			isa = PBXGroup;
+			children = (
+				58864720272F6F6100534CD1 /* ViewController.swift */,
+				5899AB67272FC48200A521D3 /* ContentViewController.swift */,
+				58D243CC2734B57400E65E1A /* DatePickerViewController.swift */,
+			);
+			path = MainViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -83,6 +248,12 @@
 			dependencies = (
 			);
 			name = SeSAC_Week06;
+			packageProductDependencies = (
+				5852529A2730C90E00A50D96 /* Realm */,
+				5852529C2730C90E00A50D96 /* RealmSwift */,
+				5825B77B27336DB600764366 /* Zip */,
+				58D243CA2734ADC200E65E1A /* FSCalendar */,
+			);
 			productName = SeSAC_Week06;
 			productReference = 58864719272F6F6100534CD1 /* SeSAC_Week06.app */;
 			productType = "com.apple.product-type.application";
@@ -109,8 +280,15 @@
 			knownRegions = (
 				en,
 				Base,
+				ko,
+				ja,
 			);
 			mainGroup = 58864710272F6F6100534CD1;
+			packageReferences = (
+				585252992730C90E00A50D96 /* XCRemoteSwiftPackageReference "realm-cocoa" */,
+				5825B77A27336DB600764366 /* XCRemoteSwiftPackageReference "Zip" */,
+				58D243C92734ADC200E65E1A /* XCRemoteSwiftPackageReference "FSCalendar" */,
+			);
 			productRefGroup = 5886471A272F6F6100534CD1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -125,9 +303,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5899AB49272F801700A521D3 /* Localizable.strings in Resources */,
+				5899AB57272F879F00A521D3 /* InfoPlist.strings in Resources */,
+				585252922730B97E00A50D96 /* Calender.storyboard in Resources */,
+				585252942730B98B00A50D96 /* Search.storyboard in Resources */,
+				58864738272F706D00534CD1 /* font.otf in Resources */,
 				58864729272F6F6200534CD1 /* LaunchScreen.storyboard in Resources */,
+				5899AB51272F853A00A521D3 /* Setting.strings in Resources */,
 				58864726272F6F6200534CD1 /* Assets.xcassets in Resources */,
+				585252962730B99400A50D96 /* Setting.storyboard in Resources */,
 				58864724272F6F6100534CD1 /* Main.storyboard in Resources */,
+				585252A62730DA9E00A50D96 /* SearchTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -138,9 +324,24 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5899AB6C272FC49E00A521D3 /* SearchViewController.swift in Sources */,
+				585252A02730C96F00A50D96 /* RealmModel.swift in Sources */,
+				58D243CD2734B57400E65E1A /* DatePickerViewController.swift in Sources */,
+				5899AB6E272FC4A300A521D3 /* SettingViewController.swift in Sources */,
+				5899AB68272FC48200A521D3 /* ContentViewController.swift in Sources */,
+				58B0C5A42738B18300776FFA /* HomeCollectionViewCell.swift in Sources */,
+				58D243D22734D01B00E65E1A /* Date+Extension.swift in Sources */,
 				58864721272F6F6100534CD1 /* ViewController.swift in Sources */,
+				5899AB61272F89FE00A521D3 /* LocalizableStrings.swift in Sources */,
 				5886471D272F6F6100534CD1 /* AppDelegate.swift in Sources */,
 				5886471F272F6F6100534CD1 /* SceneDelegate.swift in Sources */,
+				585252A52730DA9E00A50D96 /* SearchTableViewCell.swift in Sources */,
+				5899AB5F272F894C00A521D3 /* String+Extension.swift in Sources */,
+				5899AB6A272FC49600A521D3 /* CalenderViewController.swift in Sources */,
+				58D243D02734CE7500E65E1A /* RealmQuery.swift in Sources */,
+				5825B77E273442CC00764366 /* SearchDetailViewController.swift in Sources */,
+				58B0C5A12738AACB00776FFA /* HomeTableViewCell.swift in Sources */,
+				5886473B272F738100534CD1 /* UIFont+Extention.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -151,6 +352,8 @@
 			isa = PBXVariantGroup;
 			children = (
 				58864723272F6F6100534CD1 /* Base */,
+				5886473C272F7C9B00534CD1 /* ko */,
+				5899AB44272F7CF400A521D3 /* ja */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
@@ -159,8 +362,38 @@
 			isa = PBXVariantGroup;
 			children = (
 				58864728272F6F6200534CD1 /* Base */,
+				5886473D272F7C9B00534CD1 /* ko */,
+				5899AB45272F7CF400A521D3 /* ja */,
 			);
 			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+		5899AB4B272F801700A521D3 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5899AB4C272F801F00A521D3 /* en */,
+				5899AB4E272F804300A521D3 /* ko */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		5899AB53272F853A00A521D3 /* Setting.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5899AB52272F853A00A521D3 /* ko */,
+				5899AB54272F853C00A521D3 /* en */,
+			);
+			name = Setting.strings;
+			sourceTree = "<group>";
+		};
+		5899AB59272F879F00A521D3 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				5899AB58272F879F00A521D3 /* en */,
+				5899AB5A272F87A200A521D3 /* ko */,
+				5899AB5B272F87A300A521D3 /* ja */,
+			);
+			name = InfoPlist.strings;
 			sourceTree = "<group>";
 		};
 /* End PBXVariantGroup section */
@@ -170,6 +403,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -231,6 +465,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -360,6 +595,56 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		5825B77A27336DB600764366 /* XCRemoteSwiftPackageReference "Zip" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/marmelroy/Zip.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+		585252992730C90E00A50D96 /* XCRemoteSwiftPackageReference "realm-cocoa" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/realm/realm-cocoa.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 10.18.0;
+			};
+		};
+		58D243C92734ADC200E65E1A /* XCRemoteSwiftPackageReference "FSCalendar" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/WenchaoD/FSCalendar.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 2.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		5825B77B27336DB600764366 /* Zip */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 5825B77A27336DB600764366 /* XCRemoteSwiftPackageReference "Zip" */;
+			productName = Zip;
+		};
+		5852529A2730C90E00A50D96 /* Realm */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585252992730C90E00A50D96 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = Realm;
+		};
+		5852529C2730C90E00A50D96 /* RealmSwift */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 585252992730C90E00A50D96 /* XCRemoteSwiftPackageReference "realm-cocoa" */;
+			productName = RealmSwift;
+		};
+		58D243CA2734ADC200E65E1A /* FSCalendar */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 58D243C92734ADC200E65E1A /* XCRemoteSwiftPackageReference "FSCalendar" */;
+			productName = FSCalendar;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 58864711272F6F6100534CD1 /* Project object */;
 }

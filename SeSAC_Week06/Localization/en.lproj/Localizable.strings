@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SeSAC_Week06
+
+  Created by ChanhoHwang on 2021/11/01.
+  
+*/
+
+"tab_home" = "Home";
+"tab_setting" = "Setting";
+"tab_search" = "Search";
+"tab_calender" = "Calender";
+
+"welcome_text" = "Hello! Nice to meet you";

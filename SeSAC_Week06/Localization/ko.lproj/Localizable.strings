@@ -1,0 +1,14 @@
+/* 
+  Localizable.strings
+  SeSAC_Week06
+
+  Created by ChanhoHwang on 2021/11/01.
+  
+*/
+
+"tab_home" = "홈";
+"tab_setting" = "설정";
+"tab_search" = "검색";
+"tab_calander" = "캘린더";
+
+"welcome_text" = "안녕! 반가워";
